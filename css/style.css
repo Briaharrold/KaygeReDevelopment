@@ -1,0 +1,48 @@
+
+
+.bg{
+    background-color: black;
+}
+.logo{
+background-image: url(../images/KAygegaming.png);
+height: 100%;
+width: 50%;
+position: fixed;
+top: 0;
+background: rgba(0, 0, 0, 0.5);
+color: #f1f1f1;
+width: 100%;
+padding: 20px;
+}
+   *{
+        box-sizing: border-box;
+      }
+      
+      body {
+        margin: 0;
+        font-family: Arial;
+        font-size: 17px;
+      }
+      
+      #myVideo {
+        width: 70%; 
+       height: 100%;
+       display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+      }
+      
+      .content {
+        position: fixed;
+        top: 0;
+        color: #f1f1f1;
+        width: 100%;
+        padding: 20px;
+        margin-left: 17rem;
+        padding-top: 10%;
+      }
+      
+      
+      
+      
