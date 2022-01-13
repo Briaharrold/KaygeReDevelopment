@@ -7,7 +7,7 @@
 background-image: url(../images/KAygegaming.png);
 height: 100%;
 width: 50%;
-position: fixed;
+position: absolute;
 top: 0;
 background: rgba(0, 0, 0, 0.5);
 color: #f1f1f1;
@@ -32,9 +32,21 @@ padding: 20px;
   margin-right: auto;
 
       }
-      
+      .font{
+        font-family: Krungthep;
+      }
+      .spacing{
+          margin-left: 5px;
+      }
+    
+     .solid {
+         outline-color: rgb(66, 0, 141);
+         outline-style: solid;}
+      .fontColor{
+        color: white  !important;
+      }
       .content {
-        position: fixed;
+        position: absolute;
         top: 0;
         color: #f1f1f1;
         width: 100%;
