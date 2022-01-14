@@ -1,18 +1,47 @@
 
-
 .bg{
     background-color: black;
 }
 .logo{
-background-image: url(../images/KAygegaming.png);
-height: 100%;
-width: 50%;
+background-image: url("../images/KAYYYGE.png");
+height:100%;
+width: 100%; 
+top: 10px;;
+margin-bottom: 100px;
+z-index: 10;
+background-size: cover;
+/* position:relative; */
 position: absolute;
-top: 0;
-background: rgba(0, 0, 0, 0.5);
-color: #f1f1f1;
-width: 100%;
-padding: 20px;
+}
+.mdlogo{
+    background-image: url("../images/adobe22.png");
+    height:100%;
+    width: 100%; 
+    top: 0;
+    margin-bottom: 100px;
+    z-index: 10;
+    background-size: cover;
+    position: absolute;
+}
+.smlogo{
+    background-image: url("../images/kkka.png");
+    height:100%;
+    width: 100%; 
+    top: 0;
+    margin-bottom: 100px;
+    z-index: 10;
+    background-size: cover;
+    position: absolute;
+
+}
+.xslogo{
+    background-image: url("../images/kkka.png");
+    height:100%;
+    width: 100%; 
+    top: 0;
+    z-index: 10;
+    background-size: cover;
+    position: absolute;
 }
    *{
         box-sizing: border-box;
@@ -45,15 +74,20 @@ padding: 20px;
       .fontColor{
         color: white  !important;
       }
-      .content {
-        position: absolute;
-        top: 0;
-        color: #f1f1f1;
-        width: 100%;
-        padding: 20px;
-        margin-left: 17rem;
-        padding-top: 10%;
-      }
+    .btn{
+       border-radius: 50%;
+       background-color:rgb(66, 0, 141); /* Green */
+       border: none;
+       color: white;
+       padding: 20px;
+       text-align: center;
+       text-decoration: none;
+       display: inline-block;
+       font-size: 16px;
+       margin: 4px 2px;
+       cursor: pointer;
+    }
+  
       
       
       
