@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,500;0,700;1,600&display=swap');
 .bg{
     background-color: black;
 }
@@ -69,7 +69,7 @@ position: absolute;
       }
     
      .solid {
-         outline-color: rgb(66, 0, 141);
+         outline-color: rgb(255, 255, 255);
          outline-style: solid;}
       .fontColor{
         color: white  !important;
@@ -87,8 +87,27 @@ position: absolute;
        margin: 4px 2px;
        cursor: pointer;
     }
-  
-      
+    .fontColor2{
+        color: rgb(255, 255, 0);
+    }
+.car{
+       background-color: black !important;
+    }
+  .whtebg{
+     color: white;
+  }
+  hr {
+    height:10px;
+    border-width:0;
+    background-color:#ffffff !important;
+  }
+  .cardfont{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+  }
+  .cen{
+      padding-left: 7rem ;
+  }    
       
       
       
